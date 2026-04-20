@@ -8,7 +8,7 @@ import seaborn as sns
 sns.set_theme(style="whitegrid")
 
 class ActuarialPortfolioSim:
-    def __init__(self, tickers, weights, initial_capital=170):
+    def __init__(self, tickers, weights, initial_capital=10000):
         self.tickers = tickers
         self.weights = np.array(weights)
         self.initial_capital = initial_capital
